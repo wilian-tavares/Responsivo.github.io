@@ -5,8 +5,19 @@ body {
 
 #topo {
     background: orange;
+    background-image: url(imagens/rocketseat.png);
+    height: 250px;
     display: flex;
     justify-content: space-between;   
+}
+
+
+
+.logo {
+    background: url(imagens/rocket-logo-1.png) no-repeat top center;
+    width: 250px;
+    height: 250px;
+   text-indent: -3000px;
 }
 
 #menu ul {
@@ -27,10 +38,20 @@ a {
 #container {
     width: 920px;
     margin: 10px auto;
-    background: #fff;
-   
+    background: #fff; 
     border: 1px solid red;
 }
+
+.hamburger {
+    background-color: rgba(128, 0, 128, 0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav-item:hover {
+    background: #fff;
+}
+
 
 
 
@@ -52,18 +73,3 @@ Formatação Geral
 */
 
 
-/*
-backup
-<div class="dropdown">
-            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Dropdown-Menu
-            </button>
-
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item bg-success" href="">Home</a>
-                <a class="dropdown-item" href="">Página 1</a>
-                <a class="dropdown-item" href="">Página 2</a>
-            </div>
-        </div>
-        */

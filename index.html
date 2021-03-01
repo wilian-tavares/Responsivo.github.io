@@ -16,7 +16,6 @@
     <title>Revisão</title>
 
     <!--Responsivo de Acordo com o tamanho da tela-->
-
     <style>
         @media (max-width: 575.98px) {
             body {
@@ -57,49 +56,55 @@
 <body>
 
     <div id="topo">
-        <div id="logo">
-            <h1 class="p-2">LOGO SITE</h1>
+        <header class="logo">
+            <h1 class="p-2">
+                LOGO SITE
+            </h1>
+        </header>
+
+        <div class="hamburger">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="dropdown">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navegacao">
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Pàgina 1</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Página 2</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Pàgina 3</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Pàgina 4</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Página 5</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
         </div>
 
-        <nav class="navbar navbar-expand-md navbar-light">
-            <div class="dropdown">
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navegacao">
-                    <ul class="navbar-nav ml-auto">
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Pàgina 1</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Página 2</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Pàgina 3</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Pàgina 4</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Página 5</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
     </div>
+    <!--Fim Topo-->
     <!--Fim Topo-->
 
     <div id="container">
